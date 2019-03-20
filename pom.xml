@@ -26,6 +26,11 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+    <groupid>javax.servlet</groupid>
+    <artifactid>javax.servlet.api</artifactid>
+    <version>3.0.1</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -59,11 +64,4 @@
                 <url>http://54.91.128.235:8081/repository/samplesnap/</url>
         </snapshotRepository>
 </distributionManagement>
-<dependencies>
-<dependency>
- <groupid>javax.servlet</groupid>
- <artifactid>javax.servlet.api</artifactid>
- <version>3.0.1</version>
-</dependency>
-</dependencies>
 </project>
