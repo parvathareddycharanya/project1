@@ -45,33 +45,6 @@
             </execution>
          </executions>
       </plugin>
-       <plugin>
-         <groupId>org.sonatype.nexus.plugins</groupId>
-         <artifactId>nexus-repository-maven</artifactId>
-         <version>3.0.2-02</version>
-         <executions>
-            <execution>
-                <phase>deploy</phase>
-                 <configuration>
-                  <tasks>
-                     <echo>clean phase</echo>
-                  </tasks>
-                 </configuration>
-            </execution>
-         </executions>
-      </plugin>
     </plugins>
-</build>
-  <distributionManagement>
-        <repository>
-                <id>deployment</id>
-                <name>internal releases</name>
-                <url>http://54.91.128.235:8081/repository/samplerelease/</url>
-        </repository>
-        <snapshotRepository>
-                <id>deployment</id>
-                <name>internal snapshot releases</name>
-                <url>http://54.91.128.235:8081/repository/samplesnap/</url>
-        </snapshotRepository>
-</distributionManagement>
+  </build>
 </project>
